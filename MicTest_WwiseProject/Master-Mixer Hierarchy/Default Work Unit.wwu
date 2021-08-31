@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7DDB5BEE-7CC6-490E-A9B9-B58EFD7F3D48}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{7DDB5BEE-7CC6-490E-A9B9-B58EFD7F3D48}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{E11A25DD-3C9F-4261-9E97-98487B659856}" WorkUnitID="{9F0F89FC-C1B1-42BD-B056-BDB72E69AF7D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Phones" ID="{7FEAE8D4-59A6-4FC2-83A1-E6A60E3BAD56}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Mic" ID="{05B35D06-39C3-4ED9-9C05-C45C0531E959}" WorkUnitID="{16800641-F6D0-43D8-96E4-867DB1E0DB87}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{10578B01-356C-4468-BFBE-DADE58A60B2A}"/>
+									<DuckingParam>
+										<Volume>-30</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Music" ID="{10578B01-356C-4468-BFBE-DADE58A60B2A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{3912999B-B9D1-4106-8886-24B13589C7A1}" ShortID="126712918">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MicVolume" ID="{1D206A34-3B82-48D5-95B3-4DF20AD6AA6D}" WorkUnitID="{2E28265C-0FDC-4ED5-AAAD-6A47B7EE2E58}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8443489-3B8E-49D4-ACB8-7837DD605124}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-60</XPos>
+														<YPos>0.08474</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>SCurve</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>-48</XPos>
+														<YPos>-6</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>12</XPos>
+														<YPos>-6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

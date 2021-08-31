@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1182670510	mic			\Default Work Unit\mic	
+	3991942870	music			\Default Work Unit\music	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	903794717	Wwise Audio Input	Wwise Audio Input		\Actor-Mixer Hierarchy\Default Work Unit\MicInput\Wwise Audio Input	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	244595066	ingame_race_circuit_theme	D:\Experiments\MicTest\MicTest_WwiseProject\.cache\Mac\SFX\ingame_race_circuit_theme_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ingame_race_circuit_theme		37248064
+

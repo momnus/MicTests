@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16800641-F6D0-43D8-96E4-867DB1E0DB87}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{16800641-F6D0-43D8-96E4-867DB1E0DB87}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Mic" ID="{05B35D06-39C3-4ED9-9C05-C45C0531E959}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="Max" Type="Real32" Value="12"/>
+						<Property Name="Min" Type="Real32" Value="-60"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="MicVolume" ID="{1D206A34-3B82-48D5-95B3-4DF20AD6AA6D}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34A0DCDF-64E1-4B0E-AE8B-D4120CBCE6A1}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{34A0DCDF-64E1-4B0E-AE8B-D4120CBCE6A1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="mic" ID="{24EA9715-0205-4267-A83F-136AAEA6BB22}">
+					<ChildrenList>
+						<Action Name="" ID="{E32F4087-E5D4-40A4-ADC7-7D2070382FCF}" ShortID="47560031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MicInput" ID="{0FF59FBE-3027-4D36-83B4-3654A743EF96}" WorkUnitID="{8F2BADBE-A0A0-4DF7-BF9E-4C4D11B29A12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music" ID="{4A0266D4-2E72-4759-ADAA-F2FD99FB5EA0}">
+					<ChildrenList>
+						<Action Name="" ID="{499C54EB-1B6E-4915-9F98-011BD8C165D0}" ShortID="476357892">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ingame_race_circuit_theme" ID="{52284CE5-A30D-43B8-8B3E-2435CCA02D77}" WorkUnitID="{8F2BADBE-A0A0-4DF7-BF9E-4C4D11B29A12}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

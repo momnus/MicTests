@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Experiments\MicTest\MicTest_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Experiments\MicTest\MicTest_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Experiments\MicTest\MicTest_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Experiments\MicTest\MicTest_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="959767979">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="3098693800">
+			<ObjectPath>\SoundBanks\Default Work Unit\master</ObjectPath>
+			<ShortName>master</ShortName>
+			<Path>master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1182670510" Name="mic" ObjectPath="\Events\Default Work Unit\mic" DurationType="Unknown"/>
+				<Event Id="3991942870" Name="music" ObjectPath="\Events\Default Work Unit\music" DurationType="OneShot" DurationMin="194.000000" DurationMax="194.000000">
+					<IncludedMemoryFiles>
+						<File Id="244595066" Language="SFX">
+							<ShortName>ingame_race_circuit_theme.wav</ShortName>
+							<Path>SFX\ingame_race_circuit_theme_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

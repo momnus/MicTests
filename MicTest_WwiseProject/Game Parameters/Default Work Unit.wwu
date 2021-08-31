@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2E28265C-0FDC-4ED5-AAAD-6A47B7EE2E58}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{2E28265C-0FDC-4ED5-AAAD-6A47B7EE2E58}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="MicVolume" ID="{1D206A34-3B82-48D5-95B3-4DF20AD6AA6D}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="1"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="12"/>
+						<Property Name="Min" Type="Real64" Value="-60"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

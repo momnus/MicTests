@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F2BADBE-A0A0-4DF7-BF9E-4C4D11B29A12}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{8F2BADBE-A0A0-4DF7-BF9E-4C4D11B29A12}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="MicInput" ID="{0FF59FBE-3027-4D36-83B4-3654A743EF96}" ShortID="795151928">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10E38282-2491-4788-84AF-2D3EE98B72A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Phones" ID="{7FEAE8D4-59A6-4FC2-83A1-E6A60E3BAD56}" WorkUnitID="{7DDB5BEE-7CC6-490E-A9B9-B58EFD7F3D48}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Audio Input" ID="{E7946FDE-C5D6-4390-9169-C21831396032}" ShortID="903794717" PluginName="Wwise Audio Input" CompanyID="0" PluginID="200">
+							<PropertyList>
+								<Property Name="AudioInputGain" Type="Real32" Value="0"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Audio Input" ID="{E7946FDE-C5D6-4390-9169-C21831396032}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ingame_race_circuit_theme" ID="{52284CE5-A30D-43B8-8B3E-2435CCA02D77}" ShortID="635629246">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{10E38282-2491-4788-84AF-2D3EE98B72A6}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{10578B01-356C-4468-BFBE-DADE58A60B2A}" WorkUnitID="{7DDB5BEE-7CC6-490E-A9B9-B58EFD7F3D48}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ingame_race_circuit_theme" ID="{C76B18AA-D5F8-402E-A2E7-A9725BD8895C}">
+							<Language>SFX</Language>
+							<AudioFile>ingame_race_circuit_theme.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="244595066"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ingame_race_circuit_theme" ID="{C76B18AA-D5F8-402E-A2E7-A9725BD8895C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
